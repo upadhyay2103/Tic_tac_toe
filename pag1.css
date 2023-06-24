@@ -1,0 +1,28 @@
+.btn
+{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    width: 211.5vh;
+    align-items: center;
+}
+button
+{
+    height: 80px;
+    width: 100px;
+    border-radius: 20px;
+    transition: transform .7s;
+    background: linear-gradient(to bottom,rgb(40, 4, 78),rgb(11, 193, 234));
+    border-color: aliceblue;
+    border-style: groove;
+}
+button:hover
+{
+    transform : scale(1.15);
+}
+body
+{
+    background-image: url('images/4238568.jpg');
+    background-size: 211.5vh 100vh;
+    font-family: 'Gentium Plus', serif;
+}
